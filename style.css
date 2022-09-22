@@ -1,0 +1,98 @@
+#head {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+  /* margin:0%; */
+  background-color: #262b40;
+  height: 40px;
+  /* padding-top: 0;  */
+  color: white;
+}
+
+#header1 {
+  display: flex;
+  /* flex-direction:row; */
+  margin-top: -8px;
+  margin-left: 10px;
+  width: 10%;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left:20px; */
+  /* justify-content: flex-start; */
+  /* padding-left: 5px;
+    padding-top: 0%; */
+  /* padding-right: 5px; */
+}
+#srch {
+  margin-left: 5px;
+  border-radius: 4px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+#srch:active{
+    border: 1.5px solid white;
+    font-size: 13px;
+}
+#header2 {
+  /* position: absolute;
+    top: 0;
+    right: 0; */
+  /* align-content:flex-end; */
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+  display: flex;
+  /* padding: 10px; */
+  margin: 10px;
+  width: 90%;
+  /* flex-direction: row; */
+}
+
+.containor {
+  /* display: flex; */
+  /* align-content: center; */
+  margin: auto;
+  width: 800px;
+}
+.card {
+  width: 770px;
+  margin: auto;
+  border: 0.2px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#addTxt {
+  width: 90%;
+}
+.btn {
+  background-color: #bf8bff;
+  border: 0.5px black solid;
+  border-radius: 4px;
+  width: 80px;
+  height: 24px;
+  margin-top: 10px;
+}
+.btn:active {
+  background-color: #804ac3;
+}
+
+.maincard {
+  border: 0.5px solid grey;
+  width: 250px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#notes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.maincard{
+    margin: 8px;
+}

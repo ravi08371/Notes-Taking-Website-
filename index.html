@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="head">
+      <div id="header1">
+        <h4>Notes App</h4>
+        <!-- <h5>  Home</h5> -->
+      </div>
+      <div id="header2">
+        <input type="search" id="searchTxt" placeholder="search" />
+        <button id="srch" type="submit">search</button>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------------- -->
+    <div class="containor">
+      <h1>Welcome to Notes</h1>
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-heading">Add text Here</h2>
+          <div class="form-group">
+            <textarea rows="3" id="addTxt"></textarea>
+          </div>
+          <button class="btn" id="addbtn" onclick="openThis()">Add text</button>
+        </div>
+      </div>
+      <hr />
+      <h1>Your Notes</h1>
+      <hr />
+      <div id="notes">
+        
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
